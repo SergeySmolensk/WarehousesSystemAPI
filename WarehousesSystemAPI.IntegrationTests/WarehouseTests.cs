@@ -15,7 +15,7 @@ namespace WarehousesSystemAPI.IntegrationTests
     {
 
         [Fact]
-        public async Task GetWarhousesTest()
+        public async Task GetWarhousesTestAsync()
         {
             var response = await HttpClient.GetAsync("api/warehouses");
 
@@ -25,7 +25,7 @@ namespace WarehousesSystemAPI.IntegrationTests
         }
 
         [Fact]
-        public async Task GetWarhousesListTest()
+        public async Task GetWarhousesListTestAsync()
         {
             var response = await HttpClient.GetAsync("api/warehouses");
 
